@@ -8,12 +8,12 @@ import allure
 @allure.title("Login failure")
 @allure.description('User enter invalid credentials and system display error message')
 @allure.severity('allure.severity_level.CRITICAL')
-def test_login_failure(login_page):
+def test_login_failure_user_invalid_credentials(login_page):
     with allure.step('Open login page'):
         login_page.navigate()
     with allure.step('User enter invalid credentials'):
         login_page.login("invalid_username", "invalid_password")
-    with allure.step('User sees error message'):
+    with allure.step('User sees error message when invalid credentials are entered'):
         assert login_page.get_error_message() == 'Invalid credentials. Please try again.'
 
 
