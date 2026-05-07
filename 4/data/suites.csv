@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"User enter valid credentials and system display welcome message","295","Login success","tests","Thu May 07 11:25:23 UTC 2026","passed","Thu May 07 11:25:23 UTC 2026","","test_login","",""
+"User enter valid credentials and system display welcome message","300","Login success","tests","Thu May 07 11:25:23 UTC 2026","passed","Thu May 07 11:25:23 UTC 2026","","test_login","",""
+"User enter invalid credentials and system display error message","353","Login failure","tests","Thu May 07 11:25:22 UTC 2026","passed","Thu May 07 11:25:23 UTC 2026","","test_login","",""
