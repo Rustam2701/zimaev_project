@@ -14,7 +14,7 @@ def test_login_failure(login_page):
     with allure.step('User enter invalid credentials'):
         login_page.login("invalid_username", "invalid_password")
     with allure.step('User sees error message'):
-        assert login_page.get_error_message() == 'Invalid credentials. Please try again.'
+        assert login_page.get_error_message() == 'Ionvalid credentials. Please try again.'
 
 
 @allure.title("Login success")
